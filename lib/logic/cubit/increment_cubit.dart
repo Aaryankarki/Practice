@@ -18,6 +18,7 @@ class IncrementCubit extends Cubit<IncrementState> {
       emit(IncrementState(0, "Cannot decrement below 0"));
     }
   }
+// this is for reset after it workout
 
   void reset() {
     emit(const IncrementState(0, "Counter reset"));
