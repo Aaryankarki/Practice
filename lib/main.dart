@@ -17,6 +17,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
+    //blocprovider is to provide root widget
     return BlocProvider(
       create: (context) => IncrementCubit(),
       child: MaterialApp(home: HomePage(), debugShowCheckedModeBanner: false),
