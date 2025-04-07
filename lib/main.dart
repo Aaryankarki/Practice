@@ -3,6 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ksh/logic/cubit/increment_cubit.dart';
 import 'package:ksh/pages/homepage.dart';
 
+
+//main
 void main() {
   runApp(MyApp());
 }
@@ -14,6 +16,7 @@ class MyApp extends StatefulWidget {
   State<MyApp> createState() => _MyAppState();
 }
 
+//materialapp
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
